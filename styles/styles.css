@@ -13,7 +13,7 @@
     --second-bg-color: #202020;
     --text-color: #fff;
     --second-color: #ccc;
-    --main-color: #ff4d05;
+    --main-color: #FF9800;
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-fotn: 1.1rem;
@@ -24,7 +24,7 @@
     --second-bg-color: #ccc;
     --text-color: #2a2a2a;
     --second-color: #202020;
-    --main-color: #ff4d05;
+    --main-color: #FF9800;
 }
 
 body {
@@ -243,6 +243,13 @@ header.sticky{
     width: 100%;
     border-radius: 8px;
     overflow: hidden;
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: grayscale(90%)
 }
 
 .about-text h2{
